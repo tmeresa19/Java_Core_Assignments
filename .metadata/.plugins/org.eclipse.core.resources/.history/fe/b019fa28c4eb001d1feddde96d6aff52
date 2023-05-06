@@ -1,0 +1,9 @@
+package com.codingdojo.controllers;
+
+public class DaikichiApiController {
+
+	public DaikichiApiController() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

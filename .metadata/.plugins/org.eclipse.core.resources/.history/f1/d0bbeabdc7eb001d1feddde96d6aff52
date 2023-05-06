@@ -1,0 +1,17 @@
+package com.codingdojo.controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+//@RequestMapping("/daikichi")
+public class DaikichiApiController {
+	
+	@GetMapping("/daikichi/travel/{city}")
+	public String travelHonolulu(@PathVariable String city) {
+		
+		return "Congratulations! You will soon travel to " + city + "!";
+	}
+		
+}
